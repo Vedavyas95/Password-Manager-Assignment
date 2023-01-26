@@ -1,0 +1,53 @@
+.list-element {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  background-color: transparent;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.list-card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.initial {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 15px;
+  margin-right: 5px;
+}
+.name-account {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.delete-star-image {
+  width: 70%;
+}
+.button-delete {
+  border-style: none;
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+}
+.delete-image {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .list-element {
+    width: 31%;
+    margin-right: 10px;
+    border-style: solid;
+  }
+  .delete-star-image {
+    width: 50%;
+  }
+}
